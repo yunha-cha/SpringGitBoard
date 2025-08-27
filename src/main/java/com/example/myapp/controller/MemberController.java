@@ -18,7 +18,7 @@ import com.example.myapp.model.Member;
 import com.example.myapp.service.MemberService;
 
 @RestController
-@RequestMapping("/api/members") // rest api 경로제발 되라
+@RequestMapping("/api/members") // rest api 경로
 public class MemberController {
 
 	@Autowired
